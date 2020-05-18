@@ -1,81 +1,49 @@
 ---
-title: Simple curriculum module
-description: "Description, code fragments, etc."
+title: Endangered Species Tracker (EST)
+description: "Tracks Information About Endangered Species"
 layout: default
 ---
-
-Organize content into sections using Markdown headlines, which will automatically be used in the navigation links to the left. A few example sections (with explanatory text for how each section might be used) are shown below.
-
-## Value
-
-If the module is an assignment or practical exam problem, show point value&mdash;broken down into separate components, if appropriate.
-
 ## Summary
 
-Describe the module, exercise, or activity. In general, this section should not include a lot of code, but should instead provide a conceptual overview. If mathematical expressions are needed in this section (or any others), use LaTeX syntax in `$$…$$` blocks;[^1] these will be rendered by MathJax in the browser. For example, we can write
+_EST_ is an application based on Android which makes it convenient for a user to search for and keep 
+track of living organisms. The application provides information about a species such
+as endangerment status, habitat, numbers, etc.
 
-```
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
-```
+## Intended users &amp; user stories
 
-which will be rendered as 
+* People who are concerned about life on the planet
 
-$$
-x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-$$
+> As someone who loves animals, I want a way to easily look up information about any particular animal
 
-Simple mathematical expressions may also be written inline, using `$…$`. For example, `$c^2 = a^2 + b^2$` will be rendered as $c^2 = a^2 + b^2$.
+* People who are in positions which require them to keep up on the status of endangered species
 
-[^1]: When the intention is to show a computation as expressed in code, a code block (or inline code statement) should be used; otherwise, mathematical notation is preferred. 
+> As someone who acts on behalf of vulnerable species, I want access to up-to-date information 
+regarding the status of a given species of animal, plant, etc.
 
-## Requirements
+* **Functionality**
 
-Include functional and technical requirements. Include code fragments and test cases, as appropriate. For code fragments, use fenced code blocks, with language tags; inline references to variables, methods, classes, etc. should use backticks to indicate code elements.
+    * The user will be able to search for information about an organism by common name or scientific 
+name. A pop-up or a new page will display the relevant information and, if available, an image.
+    
+    * The user can search by endangerment status. The result screen displays a list of organisms under 
+that status. Each item is linked for easy navigation to a chosen species.
 
-For example, a Java code fragment would be written in a fenced code block as 
+    * A history button will be available for the user to have access to the species that had been
+already searched.
 
-    ```java
-    public static void main(String[] args) {
-      System.out.println("Hello, world!");
-    }
-    ```
+* *Device or external services used*
 
-This will be rendered as
+    * [IUCN Red List API](https://apiv3.iucnredlist.org/)
+    * [Endangered Animals API](https://endangeredanimals.docs.apiary.io/#)
+    * [Species API](https://www.gbif.org/developer/species)
 
-```java
-public static void main(String[] args) {
-  System.out.println("Hello, world!");
-}
-```
+    * Google Sign In
 
-## Hints
+## Possible enhancements
 
-If the module is an assignment or practical exam problem&mdash;particularly if it's especially challenging or requires an approach that's not very obvious&mdash;it may be a good idea to include some general tips.
+* Use a map service, such as google-maps, to display the regions of the planet where the species 
+currently inhabits.
 
-## Attachments 
+* Use a social networking service so that information can easily be shared.
 
-If the module includes `.pdf` or other attachments, link them here&mdash;as well as linking them inline (in the text), if appropriate. If there is more than one attachment, these should be formatted as an ordered or unordered list. 
 
-## Links 
-
-Links to content outside the curriculum module should appear here, as well as inline (if appropriate). If there is more than one link, an ordered or unordered list should be used. In general, it's recommended not only to include a standard Markdown link (specified with the `[…](…)` syntax), but also display the URL as a link (enclosed with `<…>`). For example,
-
-```
-* [Deep Dive Coding Java+Android Bootcamp Curriculum Template](
-    https://github.com/ddc-java/curriculum-template/) 
-    (<https://github.com/ddc-java/curriculum-template/>)
-```
-
-will be rendered as
-
-* [Deep Dive Coding Java+Android Bootcamp Curriculum Template](
-    https://github.com/ddc-java/curriculum-template/) 
-    (<https://github.com/ddc-java/curriculum-template/>)
-
-(Note that the line breaks are used here only to make the example easier to read. It is neither necessary nor recommended to break lines in this fashion in Markdown.)
-
-## Footnotes
-
-If any footnotes are defined &amp; referenced in the content, they will be displayed here. For example, note the footnote defined and referenced in the [Summary](#summary) section, above.
