@@ -20,7 +20,11 @@ as endangerment status, habitat, numbers, etc.
 > As someone who acts on behalf of vulnerable species, I want access to up-to-date information 
 regarding the status of a given species of animal, plant, etc.
 
+<<<<<<< HEAD
 ## Functionality
+=======
+## **Functionality**
+>>>>>>> e0d4ee0aa1262c9bb3b86d9806bc3a9e2de9d78a
 
 * The user will be able to search for information about an organism by common name or scientific 
 name. A pop-up or a new page will display the relevant information and, if available, an image.
@@ -31,7 +35,11 @@ that status. Each item is linked for easy navigation to a chosen species.
 * A history button will be available for the user to have access to the species that had been
 already searched.
 
+<<<<<<< HEAD
 ## Device or external services used
+=======
+## *Device or external services used*
+>>>>>>> e0d4ee0aa1262c9bb3b86d9806bc3a9e2de9d78a
 
 * [IUCN Red List API](https://apiv3.iucnredlist.org/)
 * [Endangered Animals API](https://endangeredanimals.docs.apiary.io/#)
