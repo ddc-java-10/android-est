@@ -31,8 +31,11 @@ that status. Each item is linked for easy navigation to a chosen species.
 * A history button will be available for the user to have access to the species that had been
 already searched.
 
-## Device or external services used
+## Persistent data
 
+* History of searched species
+
+## Device or external services used
 
 * [IUCN Red List API](https://apiv3.iucnredlist.org/)
 * [Endangered Animals API](https://endangeredanimals.docs.apiary.io/#)
